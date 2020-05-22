@@ -34,6 +34,10 @@ h2 {
     margin-bottom: 0;
 }
 
+p {
+    font-size: 1.2em;
+}
+
 .depth1 {
     font-size: 1.7em;
 }
@@ -43,7 +47,7 @@ ul {
     margin-top: 5px;
 }
 
-img {
+img, video {
     max-width: 100%;
     height:auto;
     bottom:0;
@@ -51,10 +55,38 @@ img {
     border-top-right-radius: 20px;
 }
 
-.imgdiv {
+.mediadiv {
+    width:fit-content;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
     box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.7);
     padding-bottom: 5px;
+}
+
+video {
+    width: 960px;
+}
+
+.homediv {
+    display: flex;
+    width:100%;
+    justify-content: flex-end;
+}
+
+.buttondiv {
+    border-radius: 10px;
+    background-color: #eeeeee;
+    color: black;
+    box-shadow: 5px 5px 2px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.center {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
