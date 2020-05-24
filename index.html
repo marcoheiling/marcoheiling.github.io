@@ -5,19 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roadtrip</title>
-    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 
-<body style="background-image: url('images/amsterdam.jpg')">
+<body style="background-image: url('media/amsterdam.jpg')">
     <div class="backgrounddiv">
-
-        <h1>Roadtrip durch Europa</h1>
-        <p>Vom <b>26. Juli 2019</b> bis zum <b>10. August 2019</b> gang es mit zwei Freunden in einem Campingbus
+        <header>
+            <h1>Roadtrip durch Europa</h1>
+            <p>Vom <b>26. Juli 2019</b> bis zum <b>10. August 2019</b> gang es mit zwei Freunden in einem Campingbus
             durch insgesamt 5 L&auml;nder in Mitteleuropa. (inkl. &Ouml;sterreich).</p>
+        </header>
+        
+        
         <div class="flex-container">
             <div>
                 <h2>Zwischenstops</h2>
-                <ul>
+                <ul id="places">
                     <li class="depth1">Deutschland
                         <ul>
                             <li>Chiemsee</li>
@@ -26,12 +29,12 @@
                             <li>K&ouml;ln</li>
                             <li>Hamburg</li>
                             <li>Berlin</li>
-                            <li>Bastei - Elbsandsteingebirge</li>
+                            <li><a href="sandstonemountains.html">Bastei - Elbsandsteingebirge</a></li>
                         </ul>
                     </li>
                     <li class="depth1">Belgien
                         <ul>
-                            <li>Br&uuml;ssel</li>
+                            <li><a href="brussels.html">Br&uuml;ssel</a></li>
                         </ul>
                     </li>
                     <li class="depth1">Niederlande
@@ -45,11 +48,22 @@
                 </ul>
             </div>
             <div class="mediadiv">
-                <img src="images/route.png" alt="Route">
+                <a href="https://www.polarsteps.com/themrmanu/2128371-roadtrip-amsterdam?s=6ccef39b-0a03-4a16-9703-31ca809d23d8" target="_blank" rel="noopener"><img src="media/route.png" alt="Route"></a>
                 <br/>
                 <a href="https://www.polarsteps.com/themrmanu/2128371-roadtrip-amsterdam?s=6ccef39b-0a03-4a16-9703-31ca809d23d8" target="_blank" rel="noopener">Route durch Europa</a>
             </div>
         </div>
+        <br/>
+        <footer>
+            <div class="homediv">
+                <a href="brussels.html">
+                    <div class="buttondiv">Ab nach Br&uuml;ssel!</div>
+                </a>
+                <a href="sandstonemountains.html">
+                    <div class="buttondiv">Ab zum Elbsandsteingebirge!</div>
+                </a>
+            </div>
+        </footer>
     </div>
 </body>
 
