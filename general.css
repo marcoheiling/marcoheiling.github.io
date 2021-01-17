@@ -1,0 +1,38 @@
+.bg-1 {
+    background-color: #6583ad;
+    color: white;
+}
+.bg-2 {
+    background-color: #505863;
+    color:white;
+}
+
+.container-fluid {
+    padding: 70px;
+}
+
+.table {
+    color: white;
+    margin: auto;
+   width: 70% !important; 
+}
+
+.list-group, .list-group-item {
+    text-align: left;
+    background-color: #6583ad;
+    
+}
+
+.list-group {
+    width:50%;
+    margin:auto;
+}
+
+.list-group-item {
+    border: 1px solid white;
+}
+
+a {
+    color:white;
+}
+
